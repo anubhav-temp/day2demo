@@ -9,7 +9,7 @@ public class demo {
 		
 		System.setProperty("webdriver.chrome.driver", "lib\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.manage().window().maximize();
+		driver.manage().window().maximize(;
 		driver.get("https://corporate.olacabs.com/");
 		System.out.println("Hello world");
 		
